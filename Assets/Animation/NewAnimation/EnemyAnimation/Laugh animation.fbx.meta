@@ -1,0 +1,1277 @@
+fileFormatVersion: 2
+guid: ffe548fa3626dc949940290b58cc2476
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Enemy_Skinned_enemy_texture
+    second: {fileID: 2100000, guid: 85c572c52e2b7944eb0c5bf69fd35d67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tongueee_inner_area
+    second: {fileID: 2100000, guid: 85c572c52e2b7944eb0c5bf69fd35d67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tongueee_teeth
+    second: {fileID: 2100000, guid: 85c572c52e2b7944eb0c5bf69fd35d67, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Grab_Exported_Enemy_LeftLeg' has translation
+      animation that will be discarded.\n\t'Grab_Exported_Enemy_RightLeg' has translation
+      animation that will be discarded.\n\t'Grab_Exported_Enemy_LeftForeArm' has
+      translation animation that will be discarded.\n\t'Grab_Exported_Enemy_RightForeArm'
+      has translation animation that will be discarded.\n\t'Grab_Exported_Enemy_Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'joint1'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 39
+      lastFrame: 263
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Grab_Exported_Enemy_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint4
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint3
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint1
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Grab_Exported_Enemy_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Laugh animation(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Reference
+      parentName: Laugh animation(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Hips
+      parentName: Grab_Exported_Enemy_Reference
+      position: {x: 0.000000019073475, y: 0.7629995, z: 0.0064530275}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftUpLeg
+      parentName: Grab_Exported_Enemy_Hips
+      position: {x: -0.06743264, y: -0.04422897, z: -0.0064530275}
+      rotation: {x: -0.000007079943, y: 0.0000006857759, z: 4.8552542e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftLeg
+      parentName: Grab_Exported_Enemy_LeftUpLeg
+      position: {x: -0.02956794, y: -0.31974083, z: -0.0005630562}
+      rotation: {x: 0.0000039759734, y: -0.00000067120857, z: 2.7567033e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftFoot
+      parentName: Grab_Exported_Enemy_LeftLeg
+      position: {x: -0.017893437, y: -0.3291139, z: -0.055002034}
+      rotation: {x: 0.0000031039694, y: -0, z: -8.79958e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftToeBase
+      parentName: Grab_Exported_Enemy_LeftFoot
+      position: {x: -0.009353418, y: -0.04848968, z: 0.09020524}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_RightUpLeg
+      parentName: Grab_Exported_Enemy_Hips
+      position: {x: 0.06743264, y: -0.04422897, z: -0.0064530275}
+      rotation: {x: -0.0000056778067, y: -0.0000006269858, z: -3.5599035e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_RightLeg
+      parentName: Grab_Exported_Enemy_RightUpLeg
+      position: {x: 0.029568315, y: -0.31974068, z: -0.0005695734}
+      rotation: {x: 0.0000025887389, y: 0.00000053791314, z: -1.3925174e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_RightFoot
+      parentName: Grab_Exported_Enemy_RightLeg
+      position: {x: 0.017893445, y: -0.3291143, z: -0.05500215}
+      rotation: {x: 0.0000030890678, y: -0, z: 9.75782e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_RightToeBase
+      parentName: Grab_Exported_Enemy_RightFoot
+      position: {x: 0.009353401, y: -0.048489697, z: 0.090205275}
+      rotation: {x: -0, y: -0.000041891268, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Spine
+      parentName: Grab_Exported_Enemy_Hips
+      position: {x: -0, y: 0.07840279, z: 0.002823181}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Spine1
+      parentName: Grab_Exported_Enemy_Spine
+      position: {x: -0, y: 0.10884109, z: -0.0008066338}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Spine2
+      parentName: Grab_Exported_Enemy_Spine1
+      position: {x: -2.1175823e-24, y: 0.10884109, z: -0.0033112573}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftShoulder
+      parentName: Grab_Exported_Enemy_Spine2
+      position: {x: -0.051029976, y: 0.05888733, z: -0.005158353}
+      rotation: {x: -0, y: 0.014868676, z: 0.00055142783, w: 0.9998893}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftArm
+      parentName: Grab_Exported_Enemy_LeftShoulder
+      position: {x: -0.08026175, y: 0.0011227417, z: -0.030272786}
+      rotation: {x: 0.000008301215, y: -0.000023223547, z: 0.00000029217875, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftForeArm
+      parentName: Grab_Exported_Enemy_LeftArm
+      position: {x: -0.20520811, y: -0.000000237815, z: -0.02338306}
+      rotation: {x: -0.000027716444, y: -0.027820757, z: -0.0003917124, w: 0.9996128}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHand
+      parentName: Grab_Exported_Enemy_LeftForeArm
+      position: {x: -0.21898267, y: -0.00007309963, z: 0.02339187}
+      rotation: {x: 0.0000000037334758, y: -0.0000016577324, z: 0.0022522062, w: 0.9999975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandThumb1
+      parentName: Grab_Exported_Enemy_LeftHand
+      position: {x: -0.022903623, y: -0.018161096, z: 0.02752736}
+      rotation: {x: -0.07832814, y: 0.00045438932, z: -0.09802327, w: 0.9920968}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandThumb2
+      parentName: Grab_Exported_Enemy_LeftHandThumb1
+      position: {x: -0.016450243, y: -0.010059081, z: 0.016358403}
+      rotation: {x: -0.037449803, y: 0.07814258, z: 0.110864416, w: 0.99005073}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandThumb3
+      parentName: Grab_Exported_Enemy_LeftHandThumb2
+      position: {x: -0.019765105, y: -0.006728722, z: 0.010221043}
+      rotation: {x: 3.6525747e-13, y: -1.1795715e-12, z: -0.49515253, w: 0.868806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandThumb4
+      parentName: Grab_Exported_Enemy_LeftHandThumb3
+      position: {x: -0.0043756184, y: -0.017250447, z: 0.009100812}
+      rotation: {x: -6.429062e-14, y: 2.5875124e-14, z: 0.9464836, w: -0.32275203}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandIndex1
+      parentName: Grab_Exported_Enemy_LeftHand
+      position: {x: -0.07895964, y: -0.0035531712, z: 0.020374987}
+      rotation: {x: 0.0015127227, y: -0.043357715, z: -0.09013093, w: 0.99498457}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandIndex2
+      parentName: Grab_Exported_Enemy_LeftHandIndex1
+      position: {x: -0.031406693, y: -0.0105083035, z: 0.00534957}
+      rotation: {x: 0.0019612168, y: -0.017341856, z: 0.112352826, w: 0.9935151}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandIndex3
+      parentName: Grab_Exported_Enemy_LeftHandIndex2
+      position: {x: -0.017043265, y: -0.001834549, z: 0.004214514}
+      rotation: {x: 0.14186233, y: 0.3968195, z: -0.47049978, w: 0.7752673}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1.0000001}
+    - name: Grab_Exported_Enemy_LeftHandIndex4
+      parentName: Grab_Exported_Enemy_LeftHandIndex3
+      position: {x: -0.004109776, y: -0.012844057, z: -0.0036578057}
+      rotation: {x: -0.40604854, y: 0.076823324, z: -0.11756631, w: 0.9029956}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Grab_Exported_Enemy_LeftHandMiddle1
+      parentName: Grab_Exported_Enemy_LeftHand
+      position: {x: -0.083766185, y: -0.0003944367, z: -0.00057978637}
+      rotation: {x: 0.00064157596, y: -0.008956568, z: -0.08101084, w: 0.99667275}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandMiddle2
+      parentName: Grab_Exported_Enemy_LeftHandMiddle1
+      position: {x: -0.032080606, y: -0.010831409, z: 0.0011380988}
+      rotation: {x: 0.00000349433, y: -0.000030899002, z: 0.11237254, w: 0.9936662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandMiddle3
+      parentName: Grab_Exported_Enemy_LeftHandMiddle2
+      position: {x: -0.020971105, y: -0.0022441682, z: 0.002021929}
+      rotation: {x: 0.00025800243, y: 0.000732722, z: -0.4951502, w: 0.86880714}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandMiddle4
+      parentName: Grab_Exported_Enemy_LeftHandMiddle3
+      position: {x: -0.005015172, y: -0.013417314, z: 0.0010000746}
+      rotation: {x: 0.0052715503, y: -0.0016587038, z: 0.9464844, w: -0.32270247}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Grab_Exported_Enemy_LeftHandRing1
+      parentName: Grab_Exported_Enemy_LeftHand
+      position: {x: -0.082704686, y: -0.0048747594, z: -0.019545447}
+      rotation: {x: -0.00006554115, y: 0.009713668, z: -0.042236302, w: 0.99906045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandRing2
+      parentName: Grab_Exported_Enemy_LeftHandRing1
+      position: {x: -0.029071623, y: -0.0071502607, z: -0.0026504195}
+      rotation: {x: 0.0000034945208, y: -0.000030900697, z: 0.11237254, w: 0.9936662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandRing3
+      parentName: Grab_Exported_Enemy_LeftHandRing2
+      position: {x: -0.017956974, y: -0.00036843936, z: -0.0005037257}
+      rotation: {x: 0.00025801666, y: 0.00073276204, z: -0.4951502, w: 0.86880714}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_LeftHandRing4
+      parentName: Grab_Exported_Enemy_LeftHandRing3
+      position: {x: -0.0064273095, y: -0.011357305, z: -0.00039080708}
+      rotation: {x: 0.0052718404, y: -0.0016587955, z: 0.9464844, w: -0.32270247}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Grab_Exported_Enemy_RightShoulder
+      parentName: Grab_Exported_Enemy_Spine2
+      position: {x: 0.051029976, y: 0.05888733, z: -0.005158353}
+      rotation: {x: -0, y: -0.014868757, z: -0.00055143086, w: 0.9998893}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_RightArm
+      parentName: Grab_Exported_Enemy_RightShoulder
+      position: {x: 0.08026175, y: 0.0011227417, z: -0.030272786}
+      rotation: {x: 0.000008298865, y: 0.000023246013, z: -0.000014077185, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_RightForeArm
+      parentName: Grab_Exported_Enemy_RightArm
+      position: {x: 0.20520811, y: 0.0000053966846, z: -0.023383107}
+      rotation: {x: -0.000018105135, y: 0.027820818, z: 0.00076454214, w: 0.9996126}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_RightHand
+      parentName: Grab_Exported_Enemy_RightForeArm
+      position: {x: 0.21898259, y: -0.00023038284, z: 0.02339187}
+      rotation: {x: 0.0000000111895115, y: 0.0000015756193, z: -0.007101203, w: 0.9999748}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Grab_Exported_Enemy_RightHandThumb1
+      parentName: Grab_Exported_Enemy_RightHand
+      position: {x: 0.023065707, y: -0.017954692, z: 0.027527362}
+      rotation: {x: -0.07830386, y: 0.00200678, z: 0.13802189, w: 0.987327}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Grab_Exported_Enemy_RightHandThumb2
+      parentName: Grab_Exported_Enemy_RightHandThumb1
+      position: {x: 0.015685814, y: -0.011213866, z: 0.016358405}
+      rotation: {x: -0.023640465, y: -0.083368696, z: -0.34531543, w: 0.93447745}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Grab_Exported_Enemy_RightHandThumb3
+      parentName: Grab_Exported_Enemy_RightHandThumb2
+      position: {x: 0.020803785, y: 0.0017713348, z: 0.010221046}
+      rotation: {x: 1.2645807e-12, y: 1.1988476e-12, z: 0.9980482, w: -0.062448137}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: Grab_Exported_Enemy_RightHandThumb4
+      parentName: Grab_Exported_Enemy_RightHandThumb3
+      position: {x: -0.017796712, y: -0.000030752748, z: 0.009100813}
+      rotation: {x: -1.4124362e-12, y: 4.958531e-12, z: 0.29035002, w: 0.95692056}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Grab_Exported_Enemy_RightHandIndex1
+      parentName: Grab_Exported_Enemy_RightHand
+      position: {x: 0.07898831, y: -0.002843989, z: 0.020374987}
+      rotation: {x: 0.0028743888, y: 0.043288827, z: 0.13025214, w: 0.9905313}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Grab_Exported_Enemy_RightHandIndex2
+      parentName: Grab_Exported_Enemy_RightHandIndex1
+      position: {x: 0.030571405, y: -0.01273544, z: 0.0053495704}
+      rotation: {x: -0.0060675186, y: -0.016364336, z: -0.34759662, w: 0.9374817}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Grab_Exported_Enemy_RightHandIndex3
+      parentName: Grab_Exported_Enemy_RightHandIndex2
+      position: {x: 0.016587628, y: 0.0052162325, z: 0.003040079}
+      rotation: {x: -0.30341417, y: 0.093745075, z: 0.9430311, w: -0.09921762}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Grab_Exported_Enemy_RightHandIndex4
+      parentName: Grab_Exported_Enemy_RightHandIndex3
+      position: {x: -0.012508648, y: -0.0014190782, z: -0.0060629635}
+      rotation: {x: 0.5575047, y: 0.26283416, z: 0.346753, w: 0.7070142}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: Grab_Exported_Enemy_RightHandMiddle1
+      parentName: Grab_Exported_Enemy_RightHand
+      position: {x: 0.083766304, y: 0.00035777688, z: -0.0005797863}
+      rotation: {x: 0.0009227174, y: 0.008932155, z: 0.12120887, w: 0.99258643}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Grab_Exported_Enemy_RightHandMiddle2
+      parentName: Grab_Exported_Enemy_RightHandMiddle1
+      position: {x: 0.031220393, y: -0.013106084, z: 0.0011381023}
+      rotation: {x: -0.0060675186, y: -0.016364336, z: -0.34759662, w: 0.9374817}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Grab_Exported_Enemy_RightHandMiddle3
+      parentName: Grab_Exported_Enemy_RightHandMiddle2
+      position: {x: 0.020166544, y: 0.0063628713, z: 0.0013176008}
+      rotation: {x: -0.30341417, y: 0.093745075, z: 0.9430311, w: -0.09921762}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Grab_Exported_Enemy_RightHandMiddle4
+      parentName: Grab_Exported_Enemy_RightHandMiddle3
+      position: {x: -0.01221647, y: -0.0012813169, z: -0.007435893}
+      rotation: {x: 0.5575047, y: 0.26283416, z: 0.346753, w: 0.7070142}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: Grab_Exported_Enemy_RightHandRing1
+      parentName: Grab_Exported_Enemy_RightHand
+      position: {x: 0.08274509, y: -0.0041318997, z: -0.019545443}
+      rotation: {x: -0.00037073763, y: -0.009706951, z: 0.082562275, w: 0.9965386}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Grab_Exported_Enemy_RightHandRing2
+      parentName: Grab_Exported_Enemy_RightHandRing1
+      position: {x: 0.028483387, y: -0.009218458, z: -0.0026504141}
+      rotation: {x: -0.0060675186, y: -0.016364336, z: -0.34759662, w: 0.9374817}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Grab_Exported_Enemy_RightHandRing3
+      parentName: Grab_Exported_Enemy_RightHandRing2
+      position: {x: 0.01656682, y: 0.006870841, z: -0.0010836946}
+      rotation: {x: -0.30341417, y: 0.093745075, z: 0.9430311, w: -0.09921762}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Grab_Exported_Enemy_RightHandRing4
+      parentName: Grab_Exported_Enemy_RightHandRing3
+      position: {x: -0.010358766, y: -0.0034371773, z: -0.007164719}
+      rotation: {x: 0.5575047, y: 0.26283416, z: 0.346753, w: 0.7070142}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: Grab_Exported_Enemy_Neck
+      parentName: Grab_Exported_Enemy_Spine2
+      position: {x: 2.1175823e-24, y: 0.10883949, z: -0.022008922}
+      rotation: {x: -0.0000058277164, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Neck1
+      parentName: Grab_Exported_Enemy_Neck
+      position: {x: -2.1175823e-24, y: 0.06490555, z: 0.016850803}
+      rotation: {x: 0.0000068586105, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Head
+      parentName: Grab_Exported_Enemy_Neck1
+      position: {x: 2.1175823e-24, y: 0.06490524, z: 0.00013581292}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint1
+      parentName: Grab_Exported_Enemy_Head
+      position: {x: -0.0013195736, y: -0.04807301, z: 0.036320284}
+      rotation: {x: -0.000000012259989, y: 1.8189904e-10, z: 3.4105684e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint2
+      parentName: joint1
+      position: {x: -0, y: -0.020414583, z: 0.055146847}
+      rotation: {x: -0, y: -0, z: -1.2393668e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint3
+      parentName: Grab_Exported_Enemy_Head
+      position: {x: 0.04842239, y: -0.036263168, z: 0.05687862}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint4
+      parentName: Grab_Exported_Enemy_Head
+      position: {x: -0.050354827, y: -0.035975028, z: 0.05687862}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: enemy
+      parentName: Laugh animation(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_Reference
+      parentName: Laugh animation(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_HipsEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.000000019073486, y: 0.7187712, z: 0}
+      rotation: {x: 3.0616168e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftAnkleEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: -0.11488956, y: 0.069916114, z: -0.055561874}
+      rotation: {x: 3.6017196e-16, y: 9.020562e-17, z: 1.7347235e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightAnkleEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.11489437, y: 0.06991626, z: -0.055566866}
+      rotation: {x: 1.5157146e-16, y: -7.632783e-17, z: -3.8163916e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftWristEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: -0.5554813, y: 1.1190953, z: -0.03027285}
+      rotation: {x: 6.123234e-17, y: 6.123234e-17, z: 6.123234e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightWristEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.5554814, y: 1.1190953, z: -0.03027285}
+      rotation: {x: 6.123234e-17, y: -6.123234e-17, z: -6.123234e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftKneeEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: -0.09699847, y: 0.3990302, z: -0.00055972656}
+      rotation: {x: 5.704114e-10, y: -0.00000056946357, z: 0.0000034408235, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightKneeEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.097000875, y: 0.39903045, z: -0.00056589895}
+      rotation: {x: -0.0000015613873, y: -0.000000079666584, z: -0.0000000111536735,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftElbowEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: -0.3364987, y: 1.1190953, z: -0.053665422}
+      rotation: {x: -1.9807778e-10, y: 0.000001657751, z: 2.115981e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightElbowEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.3364988, y: 1.1190953, z: -0.053665422}
+      rotation: {x: -1.9807778e-10, y: -0.0000015757946, z: -2.1159786e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_ChestOriginEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.000000019073475, y: 0.84140295, z: 0.0092762085}
+      rotation: {x: -1.9807771e-10, y: -1.1101925e-16, z: -1.10199536e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_ChestEndEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.000000019073486, y: 1.1179725, z: -0.000000027418135}
+      rotation: {x: -1.9807776e-10, y: -3.1715848e-26, z: 1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftFootEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: -0.12424299, y: 0.0214264, z: 0.03464343}
+      rotation: {x: 3.469142e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightFootEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.1242478, y: 0.021426553, z: 0.03463844}
+      rotation: {x: 3.469142e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftShoulderEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: -0.13129172, y: 1.1190953, z: -0.030272812}
+      rotation: {x: 0.000008306662, y: -0.000023223496, z: -0.000006124368, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightShoulderEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.13129175, y: 1.1190953, z: -0.030272812}
+      rotation: {x: 0.000008304632, y: 0.000023245844, z: 0.0000061543333, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_HeadEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.000000019073475, y: 1.2977356, z: 0.0001353978}
+      rotation: {x: 0.000001112956, y: 6.8148905e-23, z: -6.8148905e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHipEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: -0.06743263, y: 0.7187712, z: 0}
+      rotation: {x: -0.00000692834, y: 0.00000007424386, z: 0.0000033378599, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHipEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.067432664, y: 0.7187712, z: 0}
+      rotation: {x: 0.0000043883915, y: 0.0000004072112, z: 0.000000008986062, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandThumbEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: -0.6290053, y: 1.07277, z: 0.03293478}
+      rotation: {x: -1.3877788e-17, y: 6.245004e-17, z: -1.9428903e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandIndexEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: -0.69572055, y: 1.0961777, z: 0.0012830013}
+      rotation: {x: -5.902209e-10, y: -6.329153e-10, z: -3.901115e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandMiddleEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: -0.7051867, y: 1.097228, z: -0.026683325}
+      rotation: {x: -3.4890816e-11, y: -1.3493685e-11, z: -5.3020904e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandRingEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: -0.69777524, y: 1.1011723, z: -0.053352203}
+      rotation: {x: 6.123234e-17, y: -6.123234e-17, z: -6.123234e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandThumbEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.62900543, y: 1.07277, z: 0.03293478}
+      rotation: {x: -1.6182729e-10, y: -2.0821229e-16, z: 2.8095418e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandIndexEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.6957207, y: 1.0961777, z: 0.0012830013}
+      rotation: {x: -1.8369701e-16, y: 6.123234e-17, z: -1.8369701e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandMiddleEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.70518684, y: 1.097228, z: -0.026683327}
+      rotation: {x: 1.3009355e-10, y: 3.9097306e-10, z: 2.7907934e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandRingEffector
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.6977753, y: 1.1011723, z: -0.053352203}
+      rotation: {x: 1.04610764e-10, y: 4.518859e-10, z: 2.5374694e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_Hips
+      parentName: Grab_Exported_Enemy_Ctrl_Reference
+      position: {x: 0.000000019073475, y: 0.7630002, z: 0.0064530275}
+      rotation: {x: 3.0616168e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftUpLeg
+      parentName: Grab_Exported_Enemy_Ctrl_Hips
+      position: {x: -0.0674327, y: -0.044228982, z: -0.006453035}
+      rotation: {x: -0.00000692834, y: 0.00000007424386, z: 0.0000033378599, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftLeg
+      parentName: Grab_Exported_Enemy_Ctrl_LeftUpLeg
+      position: {x: -0.029568126, y: -0.31974113, z: -0.00056344667}
+      rotation: {x: 0.000006961021, y: -0.00000033841897, z: 0.00000015398629, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftFoot
+      parentName: Grab_Exported_Enemy_Ctrl_LeftLeg
+      position: {x: -0.017893394, y: -0.32911453, z: -0.055002388}
+      rotation: {x: -0.000000032683012, y: 0.00000026415094, z: -0.000003491848, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftToeBase
+      parentName: Grab_Exported_Enemy_Ctrl_LeftFoot
+      position: {x: -0.00935343, y: -0.048489776, z: 0.09020543}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightUpLeg
+      parentName: Grab_Exported_Enemy_Ctrl_Hips
+      position: {x: 0.0674327, y: -0.044228982, z: -0.006453035}
+      rotation: {x: 0.0000043811156, y: 0.0000004850734, z: 0.00000047460355, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightLeg
+      parentName: Grab_Exported_Enemy_Ctrl_RightUpLeg
+      position: {x: 0.029568126, y: -0.31974113, z: -0.00056344667}
+      rotation: {x: -0.000005952477, y: -0.0000004010612, z: -0.00000033678324, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightFoot
+      parentName: Grab_Exported_Enemy_Ctrl_RightLeg
+      position: {x: 0.017893394, y: -0.32911453, z: -0.055002388}
+      rotation: {x: 0.0000015713612, y: -0.00000008401084, z: -0.00000013782143, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightToeBase
+      parentName: Grab_Exported_Enemy_Ctrl_RightFoot
+      position: {x: 0.00935343, y: -0.048489776, z: 0.09020543}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_Spine
+      parentName: Grab_Exported_Enemy_Ctrl_Hips
+      position: {x: 1.2325955e-34, y: 0.0784028, z: 0.002823202}
+      rotation: {x: -0.0000000113490195, y: 1.6455364e-18, z: 1.1101621e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_Spine1
+      parentName: Grab_Exported_Enemy_Ctrl_Spine
+      position: {x: 9.244466e-35, y: 0.108841196, z: -0.00080662925}
+      rotation: {x: -1.7347236e-17, y: -6.162976e-33, z: -6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_Spine2
+      parentName: Grab_Exported_Enemy_Ctrl_Spine1
+      position: {x: -3.6977863e-34, y: 0.108841196, z: -0.003311253}
+      rotation: {x: -1.825503e-33, y: 2.6903614e-17, z: -3.6004856e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftShoulder
+      parentName: Grab_Exported_Enemy_Ctrl_Spine2
+      position: {x: -0.051030014, y: 0.05888742, z: -0.0051583545}
+      rotation: {x: -4.3368087e-19, y: -8.326673e-17, z: 8.6736174e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftArm
+      parentName: Grab_Exported_Enemy_Ctrl_LeftShoulder
+      position: {x: -0.08026199, y: 0.001122742, z: -0.030272843}
+      rotation: {x: 0.00000831801, y: -0.000023223496, z: -0.0000061243677, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftForeArm
+      parentName: Grab_Exported_Enemy_Ctrl_LeftArm
+      position: {x: -0.20520741, y: 2.842171e-16, z: -0.023392648}
+      rotation: {x: -0.000008318021, y: 0.000024881245, z: 0.0000061243545, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHand
+      parentName: Grab_Exported_Enemy_Ctrl_LeftForeArm
+      position: {x: -0.21898293, y: 1.4210854e-16, z: 0.023392648}
+      rotation: {x: 3.414177e-33, y: -0.000001657751, z: -5.9792993e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandThumb1
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHand
+      position: {x: -0.02282765, y: -0.01825646, z: 0.027527383}
+      rotation: {x: 1.2490008e-16, y: -2.289835e-16, z: -2.7755578e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandThumb2
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHandThumb1
+      position: {x: -0.01677666, y: -0.009504702, z: 0.016358424}
+      rotation: {x: 2.359224e-16, y: -3.4694473e-17, z: -2.4980015e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandThumb3
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHandThumb2
+      position: {x: -0.018119436, y: -0.010374071, z: 0.010221056}
+      rotation: {x: -3.469447e-16, y: -9.7144515e-17, z: 2.220446e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandThumb4
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHandThumb3
+      position: {x: -0.01580025, y: -0.008190004, z: 0.009100818}
+      rotation: {x: -7.2164497e-16, y: -1.7347232e-16, z: -0.000000035694914, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandIndex1
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHand
+      position: {x: -0.07894415, y: -0.003882447, z: 0.020375006}
+      rotation: {x: -6.938894e-18, y: 1.3877788e-17, z: -1.8648277e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandIndex2
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHandIndex1
+      position: {x: -0.031739738, y: -0.009454729, z: 0.0053495807}
+      rotation: {x: -6.938894e-18, y: -2.7755576e-17, z: -6.071532e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandIndex3
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHandIndex2
+      position: {x: -0.016514972, y: -0.0050766766, z: 0.0036171484}
+      rotation: {x: -0.000000022468157, y: -0.000000036263373, z: -0.000000022351745,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandIndex4
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHandIndex3
+      position: {x: -0.01304047, y: -0.004503709, z: 0.00221415}
+      rotation: {x: 9.055259e-16, y: -0.00000003352762, z: 0.000000014901163, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandMiddle1
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHand
+      position: {x: -0.08376387, y: -0.00074378983, z: -0.0005797864}
+      rotation: {x: 8.6736174e-19, y: 6.7920064e-35, z: 7.8306495e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandMiddle2
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHandMiddle1
+      position: {x: -0.032424092, y: -0.009755175, z: 0.0011381009}
+      rotation: {x: -1.1969592e-16, y: -4.1633363e-17, z: 1.0408341e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandMiddle3
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHandMiddle2
+      position: {x: -0.020158542, y: -0.006201783, z: 0.002020624}
+      rotation: {x: 2.4112656e-16, y: 9.0205614e-17, z: -0.000000029654705, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandMiddle4
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHandMiddle3
+      position: {x: -0.013358997, y: -0.0051664743, z: 0.001010585}
+      rotation: {x: 4.1633363e-17, y: 2.7755576e-17, z: 0.000000014827352, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandRing1
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHand
+      position: {x: -0.0826837, y: -0.0052196514, z: -0.019545455}
+      rotation: {x: -5.2041704e-18, y: 1.3877788e-17, z: -1.8323017e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandRing2
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHandRing1
+      position: {x: -0.029293982, y: -0.0061764535, z: -0.0026504237}
+      rotation: {x: 1.7347235e-18, y: 3.469447e-18, z: 4.6349643e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandRing3
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHandRing2
+      position: {x: -0.017557224, y: -0.0037857064, z: -0.0005048419}
+      rotation: {x: -2.2551405e-17, y: -3.4694463e-18, z: -0.000000029777262, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_LeftHandRing4
+      parentName: Grab_Exported_Enemy_Ctrl_LeftHandRing3
+      position: {x: -0.012759098, y: -0.0027410893, z: -0.00037864214}
+      rotation: {x: 1.7997756e-16, y: 3.989864e-17, z: -0.000000014888626, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightShoulder
+      parentName: Grab_Exported_Enemy_Ctrl_Spine2
+      position: {x: 0.051030014, y: 0.05888742, z: -0.0051583545}
+      rotation: {x: -4.3368087e-19, y: 8.326673e-17, z: -8.6736174e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightArm
+      parentName: Grab_Exported_Enemy_Ctrl_RightShoulder
+      position: {x: 0.08026199, y: 0.001122742, z: -0.030272843}
+      rotation: {x: 0.00000831598, y: 0.000023245844, z: 0.0000061543337, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightForeArm
+      parentName: Grab_Exported_Enemy_Ctrl_RightArm
+      position: {x: 0.20520741, y: 2.842171e-16, z: -0.023392648}
+      rotation: {x: -0.00000831599, y: -0.00002482164, z: -0.00000615432, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHand
+      parentName: Grab_Exported_Enemy_Ctrl_RightForeArm
+      position: {x: 0.21898293, y: 1.4210854e-16, z: 0.023392648}
+      rotation: {x: -1.9297878e-22, y: 0.0000015757946, z: 6.0092324e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandThumb1
+      parentName: Grab_Exported_Enemy_Ctrl_RightHand
+      position: {x: 0.02282765, y: -0.01825646, z: 0.027527383}
+      rotation: {x: -1.3877788e-17, y: 2.8449465e-16, z: -6.9388946e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandThumb2
+      parentName: Grab_Exported_Enemy_Ctrl_RightHandThumb1
+      position: {x: 0.01677666, y: -0.009504702, z: 0.016358424}
+      rotation: {x: -1.8041124e-16, y: 1.110223e-16, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandThumb3
+      parentName: Grab_Exported_Enemy_Ctrl_RightHandThumb2
+      position: {x: 0.018119436, y: -0.010374071, z: 0.010221056}
+      rotation: {x: -3.0531136e-16, y: 4.8572254e-17, z: 0.0000000111890195, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandThumb4
+      parentName: Grab_Exported_Enemy_Ctrl_RightHandThumb3
+      position: {x: 0.01580025, y: -0.008190004, z: 0.009100818}
+      rotation: {x: -1.110223e-16, y: -1.5265567e-16, z: -1.6653345e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandIndex1
+      parentName: Grab_Exported_Enemy_Ctrl_RightHand
+      position: {x: 0.07894415, y: -0.003882447, z: 0.020375006}
+      rotation: {x: -6.938894e-18, y: 1.3877788e-17, z: 2.6020852e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandIndex2
+      parentName: Grab_Exported_Enemy_Ctrl_RightHandIndex1
+      position: {x: 0.031739738, y: -0.009454729, z: 0.0053495807}
+      rotation: {x: -2.7755576e-17, y: -1.387779e-17, z: 0.000000028550964, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandIndex3
+      parentName: Grab_Exported_Enemy_Ctrl_RightHandIndex2
+      position: {x: 0.016514972, y: -0.0050766766, z: 0.0036171484}
+      rotation: {x: 0.000000008800678, y: 0.000000025482324, z: -0.000000013406896,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandIndex4
+      parentName: Grab_Exported_Enemy_Ctrl_RightHandIndex3
+      position: {x: 0.01304047, y: -0.004503709, z: 0.00221415}
+      rotation: {x: -0.000000004107927, y: -0.0000000118944845, z: -6.9748773e-10,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandMiddle1
+      parentName: Grab_Exported_Enemy_Ctrl_RightHand
+      position: {x: 0.08376387, y: -0.00074378983, z: -0.0005797864}
+      rotation: {x: -4.336809e-18, y: -2.8682062e-35, z: 6.6136333e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandMiddle2
+      parentName: Grab_Exported_Enemy_Ctrl_RightHandMiddle1
+      position: {x: 0.032424092, y: -0.009755175, z: 0.0011381009}
+      rotation: {x: 6.7654216e-17, y: -6.938892e-18, z: 0.000000029531273, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandMiddle3
+      parentName: Grab_Exported_Enemy_Ctrl_RightHandMiddle2
+      position: {x: 0.020158542, y: -0.006201783, z: 0.002020624}
+      rotation: {x: 0.000000008226166, y: 0.000000021270468, z: -0.000000013482782,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandMiddle4
+      parentName: Grab_Exported_Enemy_Ctrl_RightHandMiddle3
+      position: {x: 0.013358997, y: -0.0051664743, z: 0.001010585}
+      rotation: {x: -0.000000004360846, y: -0.000000011275876, z: -3.2989048e-10,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandRing1
+      parentName: Grab_Exported_Enemy_Ctrl_RightHand
+      position: {x: 0.0826837, y: -0.0052196514, z: -0.019545455}
+      rotation: {x: -6.938894e-18, y: -1.3877788e-17, z: -3.7947076e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandRing2
+      parentName: Grab_Exported_Enemy_Ctrl_RightHandRing1
+      position: {x: 0.029293982, y: -0.0061764535, z: -0.0026504237}
+      rotation: {x: 3.469447e-18, y: 1.7347237e-18, z: 0.000000029778798, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandRing3
+      parentName: Grab_Exported_Enemy_Ctrl_RightHandRing2
+      position: {x: 0.017557224, y: -0.0037857064, z: -0.0005048419}
+      rotation: {x: 0.000000005617568, y: 0.000000026148397, z: -0.000000015229006,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_RightHandRing4
+      parentName: Grab_Exported_Enemy_Ctrl_RightHandRing3
+      position: {x: 0.012759098, y: -0.0027410893, z: -0.00037864214}
+      rotation: {x: -0.0000000029250447, y: -0.000000013615363, z: 8.6804286e-11,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_Neck
+      parentName: Grab_Exported_Enemy_Ctrl_Spine2
+      position: {x: -0, y: 0.108841196, z: -0.02200934}
+      rotation: {x: -0.0000057792286, y: -4.42801e-22, z: 3.4252048e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_Neck1
+      parentName: Grab_Exported_Enemy_Ctrl_Neck
+      position: {x: 1.5407443e-34, y: 0.06490625, z: 0.016850984}
+      rotation: {x: 0.000006903533, y: 4.23604e-22, z: -4.2271858e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grab_Exported_Enemy_Ctrl_Head
+      parentName: Grab_Exported_Enemy_Ctrl_Neck1
+      position: {x: 3.3896376e-34, y: 0.06490625, z: 0.00013581394}
+      rotation: {x: 3.0616168e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

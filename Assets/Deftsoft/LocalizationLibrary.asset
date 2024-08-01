@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54283d73a3e29724da99fb688ebacbc9, type: 3}
+  m_Name: LocalizationLibrary
+  m_EditorClassIdentifier: 
+  languageData:
+  - id: french
+    dictionary:
+    - key: Start
+      uiType: 0
+      textValue: Commencer
+      imageValue: {fileID: 0}
+    - key: pause
+      uiType: 0
+      textValue: "Voulez-vous vraiment arr\xEAter?"
+      imageValue: {fileID: 0}
+    - key: totalScore
+      uiType: 0
+      textValue: Score Total
+      imageValue: {fileID: 0}
+    - key: gameOver
+      uiType: 0
+      textValue: "Jeu termin\xE9"
+      imageValue: {fileID: 0}
+    - key: gameOver1
+      uiType: 0
+      textValue: "Jeu termin\xE9"
+      imageValue: {fileID: 0}
+    - key: enterName
+      uiType: 0
+      textValue: "S'il vous pla\xEEt entrez votre nom"
+      imageValue: {fileID: 0}
+    - key: enterName2
+      uiType: 0
+      textValue: "S'il vous pla\xEEt entrez votre nom"
+      imageValue: {fileID: 0}
+    - key: Quit
+      uiType: 0
+      textValue: "\xCAtes-vous s\xFBr de vouloir quitter le jeu\_?"
+      imageValue: {fileID: 0}
+    - key: score
+      uiType: 0
+      textValue: SCORE
+      imageValue: {fileID: 0}
+    - key: UI_Quit_Text
+      uiType: 0
+      textValue: Quitter
+      imageValue: {fileID: 0}
+    - key: Yes
+      uiType: 0
+      textValue: Oui
+      imageValue: {fileID: 0}
+    - key: No
+      uiType: 0
+      textValue: Non
+      imageValue: {fileID: 0}
+    - key: Done
+      uiType: 0
+      textValue: Fait
+      imageValue: {fileID: 0}
+    - key: Language
+      uiType: 0
+      textValue: FR
+      imageValue: {fileID: 0}
+  - id: english
+    dictionary:
+    - key: Start
+      uiType: 0
+      textValue: Start
+      imageValue: {fileID: 0}
+    - key: pause
+      uiType: 0
+      textValue: Do you really want to quit ?
+      imageValue: {fileID: 0}
+    - key: totalScore
+      uiType: 0
+      textValue: Total Score
+      imageValue: {fileID: 0}
+    - key: gameOver
+      uiType: 0
+      textValue: Game Over
+      imageValue: {fileID: 0}
+    - key: gameOver1
+      uiType: 0
+      textValue: Game Over
+      imageValue: {fileID: 0}
+    - key: enterName
+      uiType: 0
+      textValue: Please enter your name
+      imageValue: {fileID: 0}
+    - key: enterName2
+      uiType: 0
+      textValue: Please enter your name
+      imageValue: {fileID: 0}
+    - key: Quit
+      uiType: 0
+      textValue: Are you sure you want to quit the game ?
+      imageValue: {fileID: 0}
+    - key: score
+      uiType: 0
+      textValue: SCORE
+      imageValue: {fileID: 0}
+    - key: UI_Quit_Text
+      uiType: 0
+      textValue: Quit
+      imageValue: {fileID: 0}
+    - key: Yes
+      uiType: 0
+      textValue: Yes
+      imageValue: {fileID: 0}
+    - key: No
+      uiType: 0
+      textValue: No
+      imageValue: {fileID: 0}
+    - key: Done
+      uiType: 0
+      textValue: Done
+      imageValue: {fileID: 0}
+    - key: Language
+      uiType: 0
+      textValue: En
+      imageValue: {fileID: 0}
+  - id: Portugais
+    dictionary:
+    - key: Start
+      uiType: 0
+      textValue: "Come\xE7ar"
+      imageValue: {fileID: 0}
+    - key: pause
+      uiType: 0
+      textValue: "Voc\xEA realmente quer sair?"
+      imageValue: {fileID: 0}
+    - key: totalScore
+      uiType: 0
+      textValue: "Pontua\xE7\xE3o total"
+      imageValue: {fileID: 0}
+    - key: gameOver
+      uiType: 0
+      textValue: Game Over
+      imageValue: {fileID: 0}
+    - key: gameOver1
+      uiType: 0
+      textValue: Game Over
+      imageValue: {fileID: 0}
+    - key: enterName
+      uiType: 0
+      textValue: Por favor, insira seu nome
+      imageValue: {fileID: 0}
+    - key: enterName2
+      uiType: 0
+      textValue: Por favor, insira seu nome
+      imageValue: {fileID: 0}
+    - key: Quit
+      uiType: 0
+      textValue: Desistir
+      imageValue: {fileID: 0}
+    - key: score
+      uiType: 0
+      textValue: "PONTUA\xC7\xC3O"
+      imageValue: {fileID: 0}
+    - key: UI_Quit_Text
+      uiType: 0
+      textValue: Desistir
+      imageValue: {fileID: 0}
+    - key: Yes
+      uiType: 0
+      textValue: Sim
+      imageValue: {fileID: 0}
+    - key: No
+      uiType: 0
+      textValue: "N\xE3o"
+      imageValue: {fileID: 0}
+    - key: Done
+      uiType: 0
+      textValue: Feito
+      imageValue: {fileID: 0}
+    - key: Language
+      uiType: 0
+      textValue: PO
+      imageValue: {fileID: 0}
+  - id: Arabic
+    dictionary:
+    - key: Start
+      uiType: 1
+      textValue: Start
+      imageValue: {fileID: 21300000, guid: 4f2dbcf39bf811b4c808ebf846beb41c, type: 3}
+    - key: pause
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: d529f0c1bf84fd1488e9f31f6b5fa58b, type: 3}
+    - key: totalScore
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: 87fcae25769eb82479be130e22c9ed43, type: 3}
+    - key: gameOver
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: 96def6bbcf43967458002c1f0926e7df, type: 3}
+    - key: gameOver1
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: 96def6bbcf43967458002c1f0926e7df, type: 3}
+    - key: enterName
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: 63cafc9acc036324a9072a8e25c38377, type: 3}
+    - key: enterName2
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: 63cafc9acc036324a9072a8e25c38377, type: 3}
+    - key: Quit
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: d529f0c1bf84fd1488e9f31f6b5fa58b, type: 3}
+    - key: score
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: 87fcae25769eb82479be130e22c9ed43, type: 3}
+    - key: UI_Quit_Text
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: 2ef3b4cc51575b846a676efaa049966a, type: 3}
+    - key: Yes
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: 7d29fd446cc70cb43881cb3da09520c6, type: 3}
+    - key: No
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: 36195213f16b5114389eedd91a854d2f, type: 3}
+    - key: Done
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: b5316bedaf94b36429e497ee5b346a7c, type: 3}
+    - key: Language
+      uiType: 1
+      textValue: 
+      imageValue: {fileID: 21300000, guid: e05152e29497f5c41b8c69d06783ed79, type: 3}

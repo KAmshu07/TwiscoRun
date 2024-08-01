@@ -1,0 +1,60 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 19.03.2012 10:37:00
+
+newmtl Bagel_with_Cream_Cheese_lower_part_of_the_donut
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1260 0.1260 0.1260
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Bagel_with_Cream_Cheese_lower_part_of_the_donut_diffuse.jpg
+	map_Kd Bagel_with_Cream_Cheese_lower_part_of_the_donut_diffuse.jpg
+	map_bump Bagel_with_Cream_Cheese_lower_part_of_the_donut_bump.jpg
+	bump Bagel_with_Cream_Cheese_lower_part_of_the_donut_bump.jpg
+
+newmtl Bagel_with_Cream_Cheese_cream_cheese
+	Ns 26.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1800 0.1800 0.1800
+	Ke 0.0000 0.0000 0.0000
+	map_refl Map__10_Falloff.tga
+
+newmtl Bagel_with_Cream_Cheese_upper_part_of_the_donut
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.3060 0.3060 0.3060
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Bagel_with_Cream_Cheese_upper_part_of_the_donut_diffuse.jpg
+	map_Kd Bagel_with_Cream_Cheese_upper_part_of_the_donut_diffuse.jpg
+	map_bump Bagel_with_Cream_Cheese_upper_part_of_the_donut_bump.jpg
+	bump Bagel_with_Cream_Cheese_upper_part_of_the_donut_bump.jpg
+
+newmtl Bagel_with_Cream_Cheese_china
+	Ns 28.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.7569 0.7569 0.7569
+	Kd 0.7569 0.7569 0.7569
+	Ks 0.4050 0.4050 0.4050
+	Ke 0.0000 0.0000 0.0000
+	map_refl Map__11_Raytrace.tga
